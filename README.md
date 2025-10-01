@@ -51,11 +51,14 @@ As mentioned, you'll need to use:
 2. Extract into your Processing sketchbook’s `libraries/` folder (basically the same as with Arduino libraries).
 3. Restart Processing.
 3. Open `processing/AirplaneDemo.pde`.
-4. Adjust serial port name if needed. I disabled "String portName = Serial.list()[0];" and enabled "String portName = "COM";" to enter my own serial port name.
+5. Adjust serial port name if needed like this: I disabled "String portName = Serial.list()[0];" and enabled "String portName = "COM";" to enter my own serial port name. You'll get that by running it once to see the ports being shown in the termin. Copy the right one and add them to the portName = " ". It's the same as it is in Arduino IDE.
 
    <img width="625" height="138" alt="Screenshot 2025-10-01 at 11 16 45" src="https://github.com/user-attachments/assets/6b1d34eb-541e-4129-b1da-d97661ee5735" />
    
-7. Upload the script and make sure that the rotations are correct.
+7. Upload the script and make sure that the rotations are correct. You'll see that it'll work when there's lines being generated in the terminal and the demo is popping up.
+
+<img width="793" height="835" alt="Screenshot 2025-10-01 at 11 49 42" src="https://github.com/user-attachments/assets/e81ace6d-3e32-4bde-a2a8-bd947463c3ae" />
+
 
 ### Hints
 - Rotation can be wrong depending on the rotation of your GY521 and other parameters. You can change the orientation of the plane e.g. with "rotateY(HALF_PI);" (or other values of PI)
