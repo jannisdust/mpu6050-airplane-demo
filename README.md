@@ -32,8 +32,8 @@ As mentioned, you'll need to use:
 |--------|------------|
 | VCC    | 5V         |
 | GND    | GND        |
-| SDA    | SDA        |
-| SCL    | SCL        |
+| SDA    | SDA (A4)   |
+| SCL    | SCL (A5)   |
 
 # 1. Setup
 
