@@ -67,7 +67,7 @@ void setup() {
     //String portName = Serial.list()[0];
     
     // get a specific serial port (use EITHER this OR the first-available code above)
-    String portName = "/dev/tty.usbmodem2101";
+    String portName = "COM"; //change name of port to the one being shown at the top of your terminal (the same as the one in Arduino IDE)
     
     // open the serial port
     port = new Serial(this, portName, 115200);
@@ -91,7 +91,7 @@ void draw() {
     // translate everything to the middle of the viewport
     pushMatrix();
     translate(width / 2, height / 2);
-    rotateY(HALF_PI); // ADDED BY ME to rotate plane
+    rotateY(HALF_PI); // disable this if correct - otherwise, adapt by PI to the right direction
 
     // 3-step rotation from yaw/pitch/roll angles (gimbal lock!)
     // ...and other weirdness I haven't figured out yet
