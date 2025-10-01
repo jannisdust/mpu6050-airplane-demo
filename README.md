@@ -3,6 +3,10 @@
 Hands-on project to control a virtual airplane in real time using an **Arduino Nano Every** and a **GY-521 (MPU-6050 IMU)**. This is quite an easy setup because of the prerequisites by [Jeff Rowberg](https://github.com/jrowberg) and [Karsten Schmidt](https://github.com/postspectacular). But I wanted to make it work easily :)
 
 
+https://github.com/user-attachments/assets/34b4fe16-4162-49a7-ae1e-5d0926705feb
+
+
+
 ## Features
 - Real-time motion tracking with MPU-6050 (gyro + accelerometer).
 - Arduino Nano Every runs Jeff Rowberg’s MPU6050 DMP firmware.
